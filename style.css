@@ -130,6 +130,8 @@
 
 }
 
+
+/*form-section*/
 .contact-section{
     display: flex;
     justify-content: space-between;
@@ -182,4 +184,31 @@ button{
 }
 button:hover{
     background-color:aqua
+}
+
+
+/*footer-section*/
+
+footer{
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.footer-logo{
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight: 100;
+    
+}
+.footer-subtitle{
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.nav-menu a:hover{
+    color: rgb(0, 255, 76)
 }
