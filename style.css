@@ -71,4 +71,46 @@
     border-radius: 48px;
 }
 
+/*Productive users*/
 
+.Productive-Section{
+    background-color: #F1F3FF;
+    padding: 20px 20px;
+    border-radius: 24px;
+    text-align: center;
+    width: 100%;
+    max-width: 1140px;
+    height: 306;
+    margin: 10px auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Section-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38;
+    color: #1E1E1E;
+    margin-bottom: 40px;
+}
+.stats-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+}
+
+.box h1{
+    font-size: 80px;
+    font-family: 'Inter', sans-serif;
+    color: #4E47FF;
+}
+
+.stat-item p {
+  margin-top: 0px;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
