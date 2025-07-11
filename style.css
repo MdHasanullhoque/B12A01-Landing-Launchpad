@@ -24,6 +24,7 @@
     font-size: 1.5rem;
     color: #4E47FF;
     font-family: 'Raleway', sans-serif;
+    cursor: pointer;
 }
 
 .hero-content {
@@ -47,6 +48,9 @@
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 9px;
+}
+.btn-primary:hover{
+    background-color:rgb(0, 255, 76)
 }
 
 
@@ -113,4 +117,69 @@
   color: #000000;
   font-weight: 400;
   font-family: 'Inter', sans-serif;
+}
+
+
+/*Card-section*/
+
+/* Placeholder section for later */
+.coming-soon {
+  height: 300px; /* ei gap ta pore replace korba */
+  background-color: #f0f0f0;
+  border: 2px dashed #ccc;
+
+}
+
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px;
+    max-width: 1000px;
+    margin:auto;
+    gap: 40px;
+    font-family: 'Inter', sans-serif;
+}
+.contact-left h1{
+font-size: 48px;
+font-weight: 800px;
+line-height: 1.2;
+font-family: 'Inter', sans-serif;
+
+}
+
+.contact-left h1 span{
+display: block;
+}
+.contact-right{
+    flex: 1;
+    max-width: 400px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 15px;
+    font-weight: 600px;
+    font-size: 14px;
+
+}
+
+input,textarea{
+    font-family: 'Inter', sans-serif;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid ;
+    border-radius: 6px;
+    font-size: 14px
+
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    background-color:aqua
 }
