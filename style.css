@@ -1,53 +1,41 @@
 
  /*hero section*/
- body{
-    position:relative;
-    margin: 0;
-    padding: 0;
-    height: 400;
-    width: 400;
+
+.hero-section{
     background-image: url(Assets/Hero-bg.png);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    box-sizing: border-box;
 
-  
- }
-
-
- /*Logo and btn*/
-nav{
-    font-family: 'Raleway', sans-serif;
+}
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0 40px;
-    height: 60px;
+    padding: 20px 0;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 1.5rem;
     color: #4E47FF;
-}
-.header-nav-h3{
-    font-size: large;
-    font-weight: bolder;
-}
-
-nav ul li{
-    list-style: none;
-}
-
-
- /*center text and btn*/
- div{
-    text-align: center;
- }
-main{
     font-family: 'Raleway', sans-serif;
-
 }
 
- .button-container ul li{
-    list-style: none;
+.hero-content {
+    font-family: 'Raleway', sans-serif;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
- }
+    text-align: center;
+    padding-bottom: 40px;
+}
 
 
  .btn-primary{
@@ -56,7 +44,31 @@ main{
     color: white;
     background-color: #4E47FF;
     border: none;
+    text-decoration: none;
     padding: 10px 20px;
     border-radius: 9px;
+}
 
- }
+
+ /* ACTION SECTION */
+ 
+.Action-section{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding: 50px 30px;
+}
+
+.text-content{
+    max-width: 350px;
+}
+.image-content{
+    width: 403;
+    height: 328;
+    overflow: hidden;
+    border-radius: 48px;
+}
+
+
