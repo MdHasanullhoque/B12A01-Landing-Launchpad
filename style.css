@@ -120,15 +120,50 @@
 }
 
 
-/*Card-section*/
 
-/* Placeholder section for later */
-.coming-soon {
-  height: 300px; /* ei gap ta pore replace korba */
-  background-color: #f0f0f0;
-  border: 2px dashed #ccc;
+/*Card-section*/
+.card-Section{
+    
+}
+.title{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
 
 }
+.card-container{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+width: 366;
+height: 243px;
+border: 2px  solid lightgray;
+border-radius: 10px;
+padding: 20px;
+box-shadow: #F1F3FF;
+background-color: #F1F3FF;
+font-family: 'Poppins', sans-serif;
+}
+.card:hover{
+    background-color: lightgray;
+}
+.avatar-profile{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.avatar-profile img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 
 
 /*form-section*/
